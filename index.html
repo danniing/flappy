@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flappy</title>
+	<script src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+	<link rel=stylesheet href="style.css">
+</head>
+<body>
+	<div class="container">
+	<h1>Flappy</h1>
+		<button id="mute">MUTE</button>
+		<table>
+			<tr>
+				<td>Points:</td>
+				<td class="score"></td>
+			</tr>
+			<tr>
+				<td>Highscore:</td>
+				<td id="highscore"></td>
+			</tr>
+		</table>
+		<div>
+			<div class="loose">
+				<p>Your score:</p>
+				<h2 class="score"></h2>
+				<button id="loosebtn">PLAY AGAIN</button>
+				<p>Or press space</p>
+			</div>
+			<canvas width="800" height="800" style="position: relative;"></canvas>
+		</div>
+	</div>
+</body>
+</html>
